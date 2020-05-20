@@ -6,6 +6,10 @@
       "dom.iterable",
       "esnext"
     ],
+    "types": ["jest","node"],
+    "typeRoots":["node_modules/@types","../node_modules/@types"],
+    "removeComments": true,
+    "rootDir": "src",
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -16,11 +20,11 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
     "baseUrl": "src",
     "incremental": true,
     "jsx": "react"
   },
+  "compileOnSave": true,
   "include": [
     "src"
   ],
